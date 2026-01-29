@@ -81,7 +81,7 @@ curl -X POST http://localhost:5000/api/sensor/ingest \
 curl http://localhost:5000/api/sensor/sensor-001/latest
 ```
 
-## MQTT Usage (Bonus)
+## MQTT Usage
 
 The service automatically subscribes to `iot/sensor/+/temperature`.
 
