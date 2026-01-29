@@ -66,10 +66,12 @@ Features
 
 **cURL Example**:
 ```bash
-curl -X POST http://localhost:5000/api/sensor/ingest \
-  -H "Content-Type: application/json" \
+curl -X POST http://localhost:5000/api/sensor/ingest `
+  -H "Content-Type: application/json" `
   -d '{"deviceId": "sensor-001", "temperature": 25.5}'
 ```
+**Postman Example**
+<img width="1390" height="884" alt="image" src="https://github.com/user-attachments/assets/d07619fc-a4a2-4cc5-a4b4-9eb1aa52c77c" />
 
 ### 2. Get Latest Data
 
@@ -80,6 +82,8 @@ curl -X POST http://localhost:5000/api/sensor/ingest \
 ```bash
 curl http://localhost:5000/api/sensor/sensor-001/latest
 ```
+**Postman Example**
+<img width="1402" height="569" alt="image" src="https://github.com/user-attachments/assets/b3efc12a-f439-440f-b685-ffefeba1385a" />
 
 ## MQTT Usage
 
